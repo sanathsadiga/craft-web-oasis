@@ -29,13 +29,10 @@ const CTA = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-white text-white hover:bg-white/10"
-              >
+              <Button variant="outline" size="lg" className="border-white text-black hover:bg-white/10 px-8">
                 Schedule a Call
               </Button>
+
             </a>
           </div>
         </div>
