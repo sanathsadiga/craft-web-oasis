@@ -82,11 +82,7 @@ const PricingCard = ({
             </span>
           </div>
           
-          <div className="text-sm text-muted-foreground mb-6">
-            {isIndia ? 'GST applicable' : 'Plus applicable taxes'}
-          </div>
-          
-          <div className="text-sm font-medium">
+          <div className="mt-4 text-sm font-medium">
             Advance payment: {format(advancePayment)}
           </div>
         </div>
