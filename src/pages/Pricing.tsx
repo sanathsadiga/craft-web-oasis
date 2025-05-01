@@ -3,6 +3,8 @@ import React from "react";
 import Layout from "@/components/layout/Layout";
 import PricingCard from "@/components/pricing/PricingCard";
 import { useCurrency } from "@/hooks/useCurrency";
+import { CheckCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Pricing = () => {
   const { format } = useCurrency();
