@@ -18,7 +18,7 @@ const Footer = () => {
               {/* Social icons could go here if needed */}
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -44,20 +44,20 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-gray-300">Email:</span>
                 <a href="mailto:contact@webcraftpro.com" className="text-gray-300 hover:text-white transition-colors ml-2">
-                  contact@webcraftpro.com
+                  contract@econatuarls.life
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://calendly.com/sanathadigas/30min" 
-                  target="_blank" 
+                <a
+                  href="https://calendly.com/sanathadigas/30min"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
@@ -67,7 +67,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
             © {currentYear} WebCraftPro. All rights reserved.
